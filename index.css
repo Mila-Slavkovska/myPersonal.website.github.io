@@ -1,0 +1,252 @@
+section, footer{
+    font-family: Helvetica, sans-serif;
+}
+
+/* HOME !!!!!!!!!!*/
+body{
+    margin: 0;
+}
+
+li, a{
+    text-decoration: none;
+}
+
+#flexContain{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1c1c;
+    height: 55px;
+}
+
+.nav_menu{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 25px;
+}
+
+.nav_menu li:hover, .nav_menu li a:hover{
+    background-color: #2d2b2b;
+    color: cadetblue;
+}
+
+.nav_menu li a, #flexContain p{
+    font-size: 20px;
+    color: white;
+}
+
+#flexContain p, footer div div{
+    margin-left: 30px;
+    font-family: Broadway, Arial, sans-serif;
+}
+
+header{
+    height: 657px;
+    background-image: url(Images/wallpaper5-1.jpg);
+}
+
+#intro{
+    align-self: center;
+    color: white;
+    border: white 10px double;
+    padding: 50px;
+    margin-top: 230px;
+    background-color: rgba(5, 5, 5, .5);
+    text-align: center;
+}
+
+/* ABOUT ME !!!!!!!!!!*/
+
+#AboutMe{
+    height: 650px;
+   background-color: rgb(79, 143, 187);
+    display: flex;
+    justify-content: flex-end;
+    border: 5px white double;
+}
+
+#AboutMe img{
+    height: 100%;
+    border-left: 5px white double;
+    margin-left: 100px;
+}
+
+#AboutMe p{
+    width: auto;
+    text-align: justify;
+    font-size: large;
+}
+
+#AboutMe div{
+    color: white;
+    margin-left: 100px;
+    align-self: center;
+}
+
+/* EDUCATION !!!!!!!!!!*/
+
+#Education{
+    height: 550px;
+    color: #1f1e1e;
+    background-color: rgb(167, 208, 239);
+    padding-top: 70px;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+}
+
+#container > div:first-child, #container > div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #d5edf8;
+    height: fit-content;
+    border-radius: 50% 100%;
+}
+
+#Education h1{
+    margin-left: 30px;
+    font-size: xx-large;
+}
+
+#Education p{
+    font-size: large;
+}
+
+.bar{
+    height: auto;
+    width: 300px;
+    background-color: papayawhip;
+    border: 1px solid papayawhip;
+    border-radius: 20px;
+}
+
+.progress{
+    height: auto;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+    border-radius: 20px;
+    font-weight: bold;
+    color: papayawhip;
+}
+
+#coding > p{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+svg{
+    height:  100px;
+    align-self: center;
+    margin-top: 20px;
+}
+
+/* HOBBIES !!!!!!!!!!!!*/
+#Hobbies{
+    height: 650px;
+    background-image: linear-gradient(to right, #2c7cc9, #518fcc, #83aed9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px white double;
+    padding: 15px;
+}
+
+#Hobbies p, #Hobbies h1, #Hobbies h2{
+    color: white;
+    align-self: center;
+}
+
+#Hobbies h1{
+    font-size: xx-large;
+}
+
+#Hobbies > p{
+    text-align: center;
+    font-size: large;
+    border-bottom: 3px double white;
+    border-top: 3px double white;
+    padding: 15px 0;
+}
+
+#containF{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#containF div{
+    width: 30%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+div h2{
+    align-self: center;
+}
+
+#button{
+    display: flex;
+    justify-content: space-around;
+}
+
+a button{
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 35px;
+    background-color: #2d2b2b;
+    font-size: medium;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+
+a button:hover{
+    text-decoration: none;
+    color: #71bfc2;
+    background-color: #1f1e1e;
+    font-size: large;
+    cursor: pointer;
+}
+
+/* CONTACT !!!!!!!!!*/
+#Contact{
+    height: 500px;
+    background-color: #2d2b2b;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 300px;
+}
+
+footer p{
+    font-size: large;
+}
+
+footer div div{
+    font-size: xx-large;
+    margin-left: 0;
+}
+
+blockquote{
+    font-style: italic;
+    font-size: large;
+    align-self: baseline;
+}
+

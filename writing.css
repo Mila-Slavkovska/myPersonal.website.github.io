@@ -1,0 +1,39 @@
+#flexContain{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1c1c;
+    height: 55px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+#flexContain p{
+    font-size: 20px;
+    color: white;
+}
+
+#flexContain p{
+    margin-left: 30px;
+    font-family: Broadway, Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    background-image: url("Images/background1.jpg");
+    height: fit-content;
+}
+
+p{
+    white-space: pre-wrap;
+    width: 700px;
+    margin-left: 210px;
+}
+
+h2{
+    margin-left: 220px;
+}
